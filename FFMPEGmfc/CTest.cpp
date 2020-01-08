@@ -769,7 +769,6 @@ int CTest::WinMain1(CWnd* wnd, char *filename) {
 	is->pictq_cond = SDL_CreateCond();	//条件变量
 	// 定时刷新器
 	schedule_refresh(is, 40);
-	printf("Hello");
 
 
 	setDecode(is);
